@@ -1,8 +1,8 @@
 import { ChevronDownIcon } from 'lucide-react';
 import Title from './Title';
-import { faqData } from '../assets/dummy-data';
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { faqData } from '../assets/dummy-data';
 
 export default function Faq() {
     const refs = useRef<(HTMLDetailsElement | null)[]>([]);

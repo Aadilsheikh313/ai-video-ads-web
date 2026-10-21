@@ -1,53 +1,52 @@
-import logo from './logo.jpg';
-// import logo from './logo.svg';
-import product1 from './product1.jpg'; // white watch
-import product2 from './product2.jpg'; // polaroid camera
-import product3 from './product3.jpg'; // sunglasses
-import product4 from './product4.jpg'; // headphone
-import product5 from './product5.jpg'; // speaker
-import product6 from './product6.jpg'; // sneakers
-import product7 from './product7.png'; // trolly bag
-import model1 from './model1.png'; // model men
-import model2 from './model2.jpg'; // model women
-import generated1 from './generated1.png'; // men with trolly bag
-import generated2 from './generated2.png'; // women with trolly bag
-import generated3 from './generated3.png'; // men with shoes
-import generated4 from './generated4.png'; // women with shoes
-import generatedVideo1 from './generatedVideo1.mp4'; // random product men 9:16
-import generatedVideo2 from './generatedVideo2.mp4'; // random product women 16:9
+import logo from './logo.svg';
+// import product1 from './product1.jpg'; // white watch
+// import product2 from './product2.jpg'; // polaroid camera
+// import product3 from './product3.jpg'; // sunglasses
+// import product4 from './product4.jpg'; // headphone
+// import product5 from './product5.jpg'; // speaker
+// import product6 from './product6.jpg'; // sneakers
+// import product7 from './product7.png'; // trolly bag
+// import model1 from './model1.png'; // model men
+// import model2 from './model2.jpg'; // model women
+// import generated1 from './generated1.png'; // men with trolly bag
+// import generated2 from './generated2.png'; // women with trolly bag
+// import generated3 from './generated3.png'; // men with shoes
+// import generated4 from './generated4.png'; // women with shoes
+// import generatedVideo1 from './generatedVideo1.mp4'; // random product men 9:16
+// import generatedVideo2 from './generatedVideo2.mp4'; // random product women 16:9
 
 export const assets = {
     logo,
-    product1,
-    product2,
-    product3,
-    product4,
-    product5,
-    product6,
-    product7,
-    model1,
-    model2,
-    generated1,
-    generated2,
-    generated3,
-    generated4,
-    generatedVideo1,
-    generatedVideo2,
+    // product1,
+    // product2,
+    // product3,
+    // product4,
+    // product5,
+    // product6,
+    // product7,
+    // model1,
+    // model2,
+    // generated1,
+    // generated2,
+    // generated3,
+    // generated4,
+    // generatedVideo1,
+    // generatedVideo2,
 };
 
 export const dummyGenerations = [
     {
         id: 'gen_1',
-        aspectRatio : '9:16',
+        aspectRatio: '9:16',
         productDescription: 'Sky Colored Trolly Bag',
         productName: 'Trolly Bag',
-        targetLength: 5,
-        uploadedImages: [product7, model1],
-        userId: 'user_1',
-        userPrompt: 'Create the video where center of attraction is a trolly bag',
-        generatedImage: generated1,
-        generatedVideo: 'generatedVideo1',
-        isGenerating: false,
+        // targetLength: 5,
+        // uploadedImages: [product7, model1],
+        // userId: 'user_1',
+        // userPrompt: 'Create the video where center of attraction is a trolly bag',
+        // generatedImage: generated1,
+        // generatedVideo: generatedVideo1,
+        // isGenerating: false,
         isPublished: false,
         createdAt: '2023-03-15T00:00:00.000Z',
         updatedAt: '',
@@ -58,11 +57,11 @@ export const dummyGenerations = [
         productDescription: 'Stylish White Sneakers',
         productName: 'Sneakers',
         targetLength: 10,
-        uploadedImages: [product6, model2],
-        userId: 'user_2',
-        userPrompt: 'Showcase the sneakers in a dynamic and fashionable way',
-        generatedImage: generated4,
-        generatedVideo: generatedVideo2,
+        // uploadedImages: [product6, model2],
+        // userId: 'user_2',
+        // userPrompt: 'Showcase the sneakers in a dynamic and fashionable way',
+        // generatedImage: generated4,
+        // generatedVideo: generatedVideo2,
         isGenerating: false,
         isPublished: true,
         createdAt: '2023-03-16T00:00:00.000Z',
@@ -74,11 +73,11 @@ export const dummyGenerations = [
         productDescription: 'Classic Polaroid Camera',
         productName: 'Polaroid Camera',
         targetLength: 7,
-        uploadedImages: [product2, model1],
-        userId: 'user_1',
-        userPrompt: 'Highlight the vintage appeal of the camera',
-        generatedImage: product1,
-        generatedVideo: generatedVideo1,
+        // uploadedImages: [product2, model1],
+        // userId: 'user_1',
+        // userPrompt: 'Highlight the vintage appeal of the camera',
+        // generatedImage: product1,
+        // generatedVideo: generatedVideo1,
         isGenerating: false,
         isPublished: false,
         createdAt: '2023-03-17T00:00:00.000Z',
@@ -90,11 +89,11 @@ export const dummyGenerations = [
         productDescription: 'Modern Wireless Headphones',
         productName: 'Headphones',
         targetLength: 8,
-        uploadedImages: [product4, model2],
-        userId: 'user_2',
-        userPrompt: 'Emphasize the comfort and sound quality of the headphones',
-        generatedImage: product2,
-        generatedVideo: generatedVideo2,
+        // uploadedImages: [product4, model2],
+        // userId: 'user_2',
+        // userPrompt: 'Emphasize the comfort and sound quality of the headphones',
+        // generatedImage: product2,
+        // generatedVideo: generatedVideo2,
         isGenerating: true,
         isPublished: false,
         createdAt: '2023-03-18T00:00:00.000Z',
@@ -106,12 +105,12 @@ export const dummyGenerations = [
         productDescription: 'Classic Polaroid Camera',
         productName: 'Polaroid Camera',
         targetLength: 7,
-        uploadedImages: [product2, model1],
-        userId: 'user_1',
-        userPrompt: 'Highlight the vintage appeal of the camera',
-        generatedImage: product3,
-        generatedVideo: generatedVideo1,
-        isGenerating: false,
+        // uploadedImages: [product2, model1],
+        // userId: 'user_1',
+        // userPrompt: 'Highlight the vintage appeal of the camera',
+        // generatedImage: product3,
+        // generatedVideo: generatedVideo1,
+        // isGenerating: false,
         isPublished: false,
         createdAt: '2023-03-17T00:00:00.000Z',
         updatedAt: '',
@@ -121,12 +120,12 @@ export const dummyGenerations = [
         aspectRatio: '1:1',
         productDescription: 'Modern Wireless Headphones',
         productName: 'Headphones',
-        targetLength: 8,
-        uploadedImages: [product4, model2],
-        userId: 'user_2',
-        userPrompt: 'Emphasize the comfort and sound quality of the headphones',
-        generatedImage: product4,
-        generatedVideo: generatedVideo2,
+        // targetLength: 8,
+        // uploadedImages: [product4, model2],
+        // userId: 'user_2',
+        // userPrompt: 'Emphasize the comfort and sound quality of the headphones',
+        // generatedImage: product4,
+        // generatedVideo: generatedVideo2,
         isGenerating: true,
         isPublished: false,
         createdAt: '2023-03-18T00:00:00.000Z',
@@ -138,11 +137,11 @@ export const dummyGenerations = [
         productDescription: 'Classic Polaroid Camera',
         productName: 'Polaroid Camera',
         targetLength: 7,
-        uploadedImages: [product2, model1],
-        userId: 'user_1',
-        userPrompt: 'Highlight the vintage appeal of the camera',
-        generatedImage: product3,
-        generatedVideo: generatedVideo1,
+        // uploadedImages: [product2, model1],
+        // userId: 'user_1',
+        // userPrompt: 'Highlight the vintage appeal of the camera',
+        // generatedImage: product3,
+        // generatedVideo: generatedVideo1,
         isGenerating: false,
         isPublished: false,
         createdAt: '2023-03-17T00:00:00.000Z',
@@ -154,11 +153,11 @@ export const dummyGenerations = [
         productDescription: 'Modern Wireless Headphones',
         productName: 'Headphones',
         targetLength: 8,
-        uploadedImages: [product4, model2],
-        userId: 'user_2',
-        userPrompt: 'Emphasize the comfort and sound quality of the headphones',
-        generatedImage: product4,
-        generatedVideo: generatedVideo2,
+        // uploadedImages: [product4, model2],
+        // userId: 'user_2',
+        // userPrompt: 'Emphasize the comfort and sound quality of the headphones',
+        // generatedImage: product4,
+        // generatedVideo: generatedVideo2,
         isGenerating: true,
         isPublished: false,
         createdAt: '2023-03-18T00:00:00.000Z',
