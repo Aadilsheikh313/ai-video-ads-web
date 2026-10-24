@@ -14,10 +14,9 @@ if (!PUBLISHABLE_KEY) {
 createRoot(document.getElementById('root')! as HTMLElement).render(
     <ClerkProvider
       appearance={{
-        theme: dark, // 'theme' ki jagah 'baseTheme' hoga
+        baseTheme: dark, // 👈 'theme' ko badal kar 'baseTheme' kar diya
         variables: {
           colorPrimary: '#4f39f6',
-          colorTextOnPrimaryBackground: "#ffffff"
         }
       }}
       publishableKey={PUBLISHABLE_KEY}
